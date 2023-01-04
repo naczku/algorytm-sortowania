@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
             var arrNumsSorted: List<Int> = quicksort(arrNums)
 
-            findViewById<TextView>(R.id.tvNumbers).text = ""
+            findViewById<TextView>(R.id.input1).text = ""
             for (element in arrNumsSorted) {
                 findViewById<TextView>(R.id.tvNumbers).append(element.toString()+" ")
             }
