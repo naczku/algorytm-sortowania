@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-
+  //algo
         fun quicksort(items: List<Int>): List<Int> {
             if (items.size <= 1) {
                 return items
