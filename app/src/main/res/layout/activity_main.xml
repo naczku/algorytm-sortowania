@@ -7,16 +7,16 @@
     tools:context=".MainActivity">
 
     <ProgressBar
-        android:id="@+id/progressBar2"
+        android:id="@+id/progres"
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="324dp"
         android:layout_height="45dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintHorizontal_bias="0.586"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.822" />
+        app:layout_constraintVertical_bias="0.976" />
 
     <Button
         android:id="@+id/sortuj"
@@ -28,7 +28,7 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.573" />
+        app:layout_constraintVertical_bias="0.788" />
 
     <Button
         android:id="@+id/losuj"
@@ -40,26 +40,25 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.682" />
+        app:layout_constraintVertical_bias="0.893" />
 
     <EditText
         android:id="@+id/input1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="309dp"
+        android:layout_height="67dp"
         android:ems="10"
         android:inputType="number"
         android:text="100"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.435" />
+        app:layout_constraintVertical_bias="0.671" />
 
     <TextView
         android:id="@+id/wypisz1"
-        android:layout_width="365dp"
-        android:layout_height="248dp"
+        android:layout_width="396dp"
+        android:layout_height="420dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
